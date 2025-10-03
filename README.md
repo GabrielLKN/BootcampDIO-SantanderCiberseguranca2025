@@ -13,11 +13,11 @@ Objetivo: identificar porta FTP aberta
 Comando: nmap -sV -p 21,22,80,445,139 192.168.1.5
 
 Portas abertas: 
-21 - serviço: FTP - versão: vsftpd 2.3.4 
-22 - serviço: SSH - versão: OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
-80 - serviço: HTTP - versão: Apach httpd 2.2.8
-139 - serviço: netbios-ssn - versão: Samba smbd 3.X - 4.X 
-445 - serviço: netbios-ssn - versão: Samba smbd 3.X - 4.X 
+- 21 - serviço: FTP - versão: vsftpd 2.3.4 
+- 22 - serviço: SSH - versão: OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+- 80 - serviço: HTTP - versão: Apach httpd 2.2.8
+- 139 - serviço: netbios-ssn - versão: Samba smbd 3.X - 4.X 
+- 445 - serviço: netbios-ssn - versão: Samba smbd 3.X - 4.X 
 
 Identificado que a porta FTP esta aberta usa-se o comando: "ftp (IP da VM Metasploitable)" para confirmar que o serviço esta ativo 
 
