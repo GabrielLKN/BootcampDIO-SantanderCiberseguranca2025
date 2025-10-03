@@ -9,6 +9,7 @@ ping feito do Kali Linux para o Metasploitable 2 com o objetivo de confirmar a c
 <br>
 1 etapa: enumeração de portas abertas | ferramenta usada: Nmap 7.95<br>Objetivo: identificar porta FTP aberta<br>Comando: nmap -sV -p 21,22,80,445,139 192.168.1.5
 <br>
+<br>
 Portas abertas:<br>
 21 - serviço: FTP - versão: vsftpd 2.3.4<br>
 22 - serviço: SSH - versão: OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)<br>
@@ -19,6 +20,7 @@ Portas abertas:<br>
 Identificado que a porta FTP esta aberta usa-se o comando: "ftp (IP da VM Metasploitable)" para confirmar que o serviço esta ativo 
 <br>
 2 etapa: ataque brute force | ferramenta usada: Medusa v2.3
+<br>
 <br>
 Criação de wordlists:
 <br>
