@@ -58,7 +58,7 @@ Comando: smbclient -L //192.168.1.5 -U msfadmin
 
 - Vulnerabilidades: senhas fracas e iguais ao campo user
 - Soluções: Implementar 2FA/MFA e recomendar ao usuário que utilize senhas fortes, bloqueio de IPs para múltiplas tentativas de logins, monitoramento de logs e segmentação da rede
-Recomendações para criação de senhas:
+- Recomendações para criação de senhas:
 mínimo de 12 caracteres, utlizar letras maiúsculas (A-Z) e minúsculas (a-z), utlizar símbolos (!, @, #, $, %, &, *), evitar informações pessoais e organizacionais.
 
 
